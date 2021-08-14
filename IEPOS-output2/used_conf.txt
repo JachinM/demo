@@ -1,0 +1,29 @@
+CONFIGURATION:
+dataset = energy
+output = D:\01Leeds\1.First_Semester2021-1.25\Bigdata\Coursework\cw1\EPOS-master\output\energy_1623542799
+==============
+numSimulations = 30
+dataset = energy
+numAgents = 1000
+numPlans = 10
+planDim = 144
+numIterations = 80
+numChildren = 3
+--------------
+alpha = 0.001
+beta = 0.065
+global cost function = variance
+local cost function = index
+goal signal = null
+--------------
+permutationID = 0
+reorganizationSeed = 0
+permutationSeed = 0
+permutationFile = null
+reorganizationPeriod = 3
+memorizationOffset = 5
+reorganizationStrategy = GLOBAL_COST_REDUCTION
+convergenceTolerance = 0.48
+--------------
+loggingLevel = SEVERE
+Selected Loggers: UnfairnessLogger, GlobalComplexCostLogger, LocalCostMultiObjectiveLogger, ReorganizationLogger, GlobalCostLogger, VisualizerLogger, TerminationLogger, PlanFrequencyLogger, WeightsLogger, SelectedPlanLogger, GlobalResponseVectorLogger
